@@ -9,7 +9,7 @@ def notification_listener(config: KafkaConfig = KafkaConfig("message-notificatio
     print("Listening for notifications...")
 
     while True:
-        msg = consumer.poll(5.0)
+        msg = consumer.poll(1.0)
 
         if msg is None:
             continue
