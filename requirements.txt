@@ -1,0 +1,2 @@
+confluent-kafka~=2.10.0
+scikit-learn~=1.6.1
